@@ -58,7 +58,8 @@ New labels should be stored in a JSON file. For example:
 
 ## Usage
 
-Use the `-h` or `--help` flags to see the scripts arguments:
+Use the `-h` or `--help` flags to see the scripts arguments (arguments
+in square brackets are optional).
 
 ```bash
 [~] $ ./manage_repo_labels.py -h
@@ -83,3 +84,21 @@ Users must supply their GitHub ID, path to authorization token file,
 and the repository name. If the repository is owned by an
 organization, then the the organization name must be included. The
 script assumes the repository is owned by the user otherwise.
+
+### Check existing
+
+```bash
+./manage_repo_labels.py -i ID -t ~/.github_token -r my_repo -c
+```
+
+### Delete existing
+
+```bash
+./manage_repo_labels.py -i ID -t ~/.github_token -r my_repo -d
+```
+
+### Add new labels
+
+```bash
+./manage_repo_labels.py -i ID -t ~/.github_token -r my_repo -l new_repo_labels.json
+```
