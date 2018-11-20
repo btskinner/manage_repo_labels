@@ -20,11 +20,7 @@ appropriate permissions [using these
 instructions](https://help.github.com/articles/authorizing-a-personal-access-token-for-use-with-a-saml-single-sign-on-organization/). Once
 created, save your token in a file on your computer. For example, you
 might create `~/.gh_token` in your home directory that simply
-contains:
-
-```
-<token string>
-```
+contains the token.  
 
 ### Label files
 
