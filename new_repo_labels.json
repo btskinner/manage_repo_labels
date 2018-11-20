@@ -1,0 +1,52 @@
+[
+    {
+	"name": "Priority: Critical",
+	"description": "",
+	"color": "e11d21"
+    },
+    {
+	"name": "Priority: High",
+	"description": "",
+	"color": "eb6420"
+    },
+    {
+	"name": "Priority: Medium",
+	"description": "",
+	"color": "fbca04"
+    },
+    {
+	"name": "Priority: Low",
+	"description": "",
+	"color": "009800"
+    },
+    {
+	"name": "Status: Completed",
+	"description": "",
+	"color": "c5def5"
+    },
+    {
+	"name": "Status: In Progress",
+	"description": "",
+	"color": "fef2c0"
+    },
+    {
+	"name": "Status: Review Needed",
+	"description": "",
+	"color": "f9d0c4"
+    },
+    {
+	"name": "Status: To Do",
+	"description": "",
+	"color": "c2e0c6"
+    },
+    {
+	"name": "Question",
+	"description": "",
+	"color": "5319e7"
+    },
+    {
+	"name": "FYI",
+	"description": "",
+	"color": "000000"
+    }
+]
